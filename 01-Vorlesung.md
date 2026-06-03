@@ -151,7 +151,7 @@ Modellgetriebene Softwareentwicklung ist ein Oberbegriff für Techniken, die aus
 > Eine Kombination aus manuellen und generiertem Code ist durchaus üblich
 
 ### 🔹 Motivation für den Einsatz von MDSD
-> Erhöhung der - Softwarequalität / Wiederverwendbarkeit / Entwicklungseffizienz
+> - Erhöhung der - Softwarequalität / Wiederverwendbarkeit / Entwicklungseffizienz
 > Arbeit erfolgt auf höherem Abstraktionsniveau
 > Die Komplexität wird in zwei Teile gesplittet
 > Modelle bzw. <modellelemente werden auf gleiche Weise auf eine somit einheitliche Architektur abgebildet
