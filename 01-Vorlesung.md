@@ -216,9 +216,7 @@ Modellgetriebene Softwareentwicklung ist ein Oberbegriff für Techniken, die aus
 
 > Die wichtigsten Erkenntnisse der Vorlesung:
 
-- ⭐ Aussage 1
-- ⭐ Aussage 2
-- ⭐ Aussage 3
+- ⭐ Nicht alle Softwareentiwcklungs Projekte eignen sich für Modellgetriebene Softwareentwicklung
 
 ---
 ## 📋 Aufgaben
