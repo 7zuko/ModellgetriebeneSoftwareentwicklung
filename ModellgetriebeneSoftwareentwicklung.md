@@ -1,11 +1,11 @@
 ---
-title: ""
-module: "Modellgetriebene Softwareentwicklung"
+title: Vorlesungs Notizen 1
+module: Modellgetriebene Softwareentwicklung
 date: 2026-06-03
-vorlesung: "Nr. 1 – Einführung"
-dozent: ""
-raum: ""
-tags: [MSE, Vorlesung]
+vorlesung: Nr. 1 – Einführung
+dozent: T. Eckwert
+raum: E-019 D - PC-Raum
+tags: [Vorlesung, MDSD, MDSE, MBD, MBE, MDE, MDA, MDD, Modelmerkmale]
 version: 1.0
 ---
 
@@ -13,10 +13,10 @@ version: 1.0
 
 > 🏫 **Modul:** Modellgetriebene Softwareentwicklung  
 > 📅 **Datum:** 03.06.2026  
-> 👨‍🏫 **Dozent:**  
-> 🚪 **Raum:**  
+> 👨‍🏫 **Dozent:** T. Eckwert  
+> 🚪 **Raum:**  E-019 D - PC-Raum
 > ⏰ **Dauer:** 08:00 – 13:00 Uhr  
-> 🎯 **Schwerpunkt:**  
+> 🎯 **Schwerpunkt:** Softwareentwicklung 
 
 ---
 
@@ -24,18 +24,18 @@ version: 1.0
 
 Nach dieser Vorlesung sollte ich...
 
-- [ ] Ziel 1
-- [ ] Ziel 2
-- [ ] Ziel 3
+- [ ] Modellierungs Merkmale kennen
+- [ ] Akronyme kennen
+- [ ] Deskriptive und Preskriptive Modelle erkennen/verstehen
 
 ---
 
 ## 🗂️ Agenda
 
-1. 🚀 Einführung
-2. 📖 Thema B
-3. 💬 Diskussion & Übungen
-4. ✅ Zusammenfassung
+1. 🖋️ Übungen besprechen
+2. 🚀 Einführung
+3. 📖 Modellierungsmerkmale
+4. 💬 Akronyme
 
 ---
 
