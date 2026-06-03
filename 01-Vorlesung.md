@@ -96,6 +96,12 @@ Nach dieser Vorlesung sollte ich...
 > Prozesse und Regeln: Anleitungen, welche Modelle zu welchem Zeitpunkt zu erstellen sind.
 > Tools: Werkzeuge, die - das Erstellen der Konzepte unter Verwendung geeigneter Notationen unterstützen / das Verhalten der Atefakte unterstützen / die Einhaltung der Prozessabläufe sowie der definierten Regeln unterstützen
 
+### 🔹 MDSD - Definition
+Modellgetriebene Softwareentwicklung ist ein Oberbegriff für Techniken, die aus formalen Modellen automatisiert lauffähige Software erzeugen.
+> formale Modelle
+> lauffähige Software
+> automatisiert
+
 ### 🔹 Akronyme
 #### MDD - Model-Driven Deployment
 > Modelle sind die bestimmenden Artefakte
@@ -117,6 +123,20 @@ Nach dieser Vorlesung sollte ich...
 #### MDSE - Model-Driven Software Engineering
 > Modelle werden zur (semi-)automatisierten Generierung von Software genutzt
 > Subsummiert unter MDE
+
+### 🔹 Formale Modelle
+#### In Projekten werden zahlreiche Arten von Modellen eingesetzt
+> Architekturskizzen an Tafeln, Whiteboards, Hand-outs
+> UML-Diagramme zur Herausarbeitung eines bestimmten Design-Aspekts
+> ER-Diagramme als konzeptioneller Entwurf der Datenbank
+> Relationen-Modell zur logischen beschreibung der Datenbank
+> Flussdiagramme zur groben Beschreibung von Prozessen
+#### Nur eine Teilmenge der o.g. Modelle ist tatsächlich formal genug, um einsetzbar für MDSD zu sein
+#### Formal:
+> vollständige Beschreibung der wesentlichen Elemente eines Teilaspektes der Software (vollständig != alles)
+> klare Regeln, über was ein Modell Aussagen treffen kann und muss
+> klare Regeln, wie die Beschreibung erfolgt
+> formale Modelle müssen nicht zwingend UML-Modelle sein!
 ---
 ## 📷 Bilder / Diagramme
 
