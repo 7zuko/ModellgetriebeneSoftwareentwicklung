@@ -163,6 +163,29 @@ Modellgetriebene Softwareentwicklung ist ein Oberbegriff für Techniken, die aus
 > - Expertenwissen fließt in die Automation ein
 > - Wiederverwendbarkeit: Architekturen, Modellierungssprachen und Generatoren können ggf. für unterschiedliche Systeme verwendet werden
 > - Plattformunabhängigkeit: Aus den selben Modellen können Artefakte für unterschiedliche Zielplattformen generiert werden
+
+### Was wird generiert? - Was nicht?
+> #### Entitäten
+> Für die Entitäten können mit JPA-Annotationen versehene Java-Klassen generiert werden.
+> Hier ist in der Regel keinerlei manuelle Implementierung nötig
+
+> #### Komponenten
+> Während die DAO-Komponenten weitestgehend automatisiert generiert werden können, müssen die fachlichen Methoden manuell implementiert werden. Dabei wird häufig eine abstrakte Klasse sowie ein Interface generiert. Innerhalb der abstrakten Klasse findet die korrekte Verdrahtung der Komponenten und Implementierung von Methoden zum Zugriff auf weitere Komponenten statt.
+> Von der Abstrakten Klasse erbt dann eine Implementierende Klasse, in der die fachlichen Methoden manuell ergänzt werden.
+
+> #### Webseiten
+> Häufig werden die Views noch manuell erzeugt. Jedoch ist auch eine vollständige Generierung möglich. Aus dem vorliegenden Modell kann die Seitennavigation abgeleitet und generiert werden.
+
+> ✅ Was wird generiert
+> - Enitäten via Java Klasse
+> - DAO-Komponenten
+> - Abstrakte Klasse
+> - Interface
+> - Views
+> - Seitennavigation
+
+> ❌ Was wird nicht generiert
+> - fachliche Methoden
 ---
 ## 📷 Bilder / Diagramme
 
@@ -177,6 +200,15 @@ Modellgetriebene Softwareentwicklung ist ein Oberbegriff für Techniken, die aus
 
 #### MDSD - Übersicht
 <img width="1500" height="830" alt="image" src="https://github.com/user-attachments/assets/82f4257a-39e0-44a9-b905-1f7ea9384bc2" />
+
+#### Persistenz (Entitäten)
+<img width="1456" height="818" alt="image" src="https://github.com/user-attachments/assets/47f18e7f-01e0-45d3-9dce-efaf0c7f37f9" />
+
+#### Komponenten
+<img width="1286" height="694" alt="image" src="https://github.com/user-attachments/assets/4e063301-4192-4877-b811-6ac19c7a1324" />
+
+#### Webseiten
+<img width="1490" height="714" alt="image" src="https://github.com/user-attachments/assets/b709f8a6-5852-438c-8f8b-75a4925caa20" />
 
 ---
 
