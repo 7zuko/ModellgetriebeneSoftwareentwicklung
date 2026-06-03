@@ -69,8 +69,8 @@ Nach dieser Vorlesung sollte ich...
 
 ### 🔹 Modelling Levels
 #### Modelle als Skizzen
-> Verwendung zum Zwecke der Kommunikation
-> Lediglich Teile des Systems sind modelliert
+> - Verwendung zum Zwecke der Kommunikation
+> - Lediglich Teile des Systems sind modelliert
 #### Modelle als Blaupausen
 > Modelle bieten eine vollständige und detaillierte Sicht auf das System
 #### Modelle als Programme
@@ -78,91 +78,91 @@ Nach dieser Vorlesung sollte ich...
 
 ### 🔹 Dekriptives vs. Preskriptives Modellieren
 #### Deskriptive Modelle
-> veranschaulichen bereits existierende Systeme
-> abstrahieren Eigenschaften, die nicht von Interesse sind
-> betonen Eigenschaften, die im Fokus des jeweiligen Kontexts stehen
-> werden zur Diskussion, Kommunikation und Analyse eines Systems eingesetzt
+> - veranschaulichen bereits existierende Systeme
+> - abstrahieren Eigenschaften, die nicht von Interesse sind
+> - betonen Eigenschaften, die im Fokus des jeweiligen Kontexts stehen
+> - werden zur Diskussion, Kommunikation und Analyse eines Systems eingesetzt
 #### Preskriptive Modelle
-> können für die automatisierte Generierung eines Systems verwendet werden
-> weisen einen hohen Grad an Präzision, Formalität, Vollständigkeit und Konsistenz auf
-> bilden die Basis für modellgetriebene Softwareentwicklung
+> - können für die automatisierte Generierung eines Systems verwendet werden
+> - weisen einen hohen Grad an Präzision, Formalität, Vollständigkeit und Konsistenz auf
+> - bilden die Basis für modellgetriebene Softwareentwicklung
 
 ### 🔹 MDSE - Basiscs
 > Unter Model Driven Software Engineering (MDSE) wird eine Menge von Instrumenten und Richtlinien subsumiert.
-> MDSE zielt darauf, Softwareentwicklung von den möglichen Vorteilen des Modellierens profitieren zu lassen
+> - MDSE zielt darauf, Softwareentwicklung von den möglichen Vorteilen des Modellierens profitieren zu lassen
 #### Bestandteile:
-> Konzepte: Modelle und Transformationen
-> Notationen: Modellierungssprachen
-> Prozesse und Regeln: Anleitungen, welche Modelle zu welchem Zeitpunkt zu erstellen sind.
-> Tools: Werkzeuge, die - das Erstellen der Konzepte unter Verwendung geeigneter Notationen unterstützen / das Verhalten der Atefakte unterstützen / die Einhaltung der Prozessabläufe sowie der definierten Regeln unterstützen
+> - Konzepte: Modelle und Transformationen
+> - Notationen: Modellierungssprachen
+> - Prozesse und Regeln: Anleitungen, welche Modelle zu welchem Zeitpunkt zu erstellen sind.
+> - Tools: Werkzeuge, die - das Erstellen der Konzepte unter Verwendung geeigneter Notationen unterstützen / das Verhalten der Atefakte unterstützen / die Einhaltung der Prozessabläufe sowie der definierten Regeln unterstützen
 
 ### 🔹 MDSD - Definition
 Modellgetriebene Softwareentwicklung ist ein Oberbegriff für Techniken, die aus formalen Modellen automatisiert lauffähige Software erzeugen.
-> formale Modelle
-> lauffähige Software
-> automatisiert
+> - formale Modelle
+> - lauffähige Software
+> - automatisiert
 
 ### 🔹 Akronyme
 #### MDD - Model-Driven Deployment
-> Modelle sind die bestimmenden Artefakte
-> Die Implementierung des Systems geschieht (semi-)automatisiert auf Basis der Modelle
+> - Modelle sind die bestimmenden Artefakte
+> - Die Implementierung des Systems geschieht (semi-)automatisiert auf Basis der Modelle
 #### MDA - Model-Driven Architecture
-> MDSD-Variante definiert von der OMG
-> Verwendet OMG-Standards (u.a. für Notation der Modelle und Transformationen)
+> - MDSD-Variante definiert von der OMG
+> - Verwendet OMG-Standards (u.a. für Notation der Modelle und Transformationen)
 #### MDE - Model-Driven Engineering
-> Umfasst zusätzlicvhe modellgetriebene Aufgaben, die über die Implementierung des Systems hinausgehen
-> Model-driven system evolution
-> Model-driven reverse engineering
+> - Umfasst zusätzlicvhe modellgetriebene Aufgaben, die über die Implementierung des Systems hinausgehen
+> - Model-driven system evolution
+> - Model-driven reverse engineering
 
 #### MBD - Model-Based Development
-> Aufgeweichte Version vopn MDD
-> Modelle sind wichtige Artefakte, werden aner eher als Skizzen oder Blaupausen denn als ausführbare Artefakte genutzt
+> - Aufgeweichte Version vopn MDD
+> - Modelle sind wichtige Artefakte, werden aner eher als Skizzen oder Blaupausen denn als ausführbare Artefakte genutzt
 #### MBE - Model-Based Engineering
-> Aufgeweichte Version von MDE
-> Modelle sind wichtige Artefakte, werden aber eher als Skizzen oder Blaupausen denn als ausführbare Artefakte genutzt
+> - Aufgeweichte Version von MDE
+> - Modelle sind wichtige Artefakte, werden aber eher als Skizzen oder Blaupausen denn als ausführbare Artefakte genutzt
 #### MDSE - Model-Driven Software Engineering
-> Modelle werden zur (semi-)automatisierten Generierung von Software genutzt
-> Subsummiert unter MDE
+> - Modelle werden zur (semi-)automatisierten Generierung von Software genutzt
+> - Subsummiert unter MDE
 
 ### 🔹 Formale Modelle
 #### In Projekten werden zahlreiche Arten von Modellen eingesetzt
-> Architekturskizzen an Tafeln, Whiteboards, Hand-outs
-> UML-Diagramme zur Herausarbeitung eines bestimmten Design-Aspekts
-> ER-Diagramme als konzeptioneller Entwurf der Datenbank
-> Relationen-Modell zur logischen beschreibung der Datenbank
-> Flussdiagramme zur groben Beschreibung von Prozessen
+> - Architekturskizzen an Tafeln, Whiteboards, Hand-outs
+> - UML-Diagramme zur Herausarbeitung eines bestimmten Design-Aspekts
+> - ER-Diagramme als konzeptioneller Entwurf der Datenbank
+> - Relationen-Modell zur logischen beschreibung der Datenbank
+> - Flussdiagramme zur groben Beschreibung von Prozessen
 #### Nur eine Teilmenge der o.g. Modelle ist tatsächlich formal genug, um einsetzbar für MDSD zu sein
 #### Formal:
-> vollständige Beschreibung der wesentlichen Elemente eines Teilaspektes der Software (vollständig != alles)
-> klare Regeln, über was ein Modell Aussagen treffen kann und muss
-> klare Regeln, wie die Beschreibung erfolgt
-> formale Modelle müssen nicht zwingend UML-Modelle sein!
+> - vollständige Beschreibung der wesentlichen Elemente eines Teilaspektes der Software (vollständig != alles)
+> - klare Regeln, über was ein Modell Aussagen treffen kann und muss
+> - klare Regeln, wie die Beschreibung erfolgt
+> - formale Modelle müssen nicht zwingend UML-Modelle sein!
 
 ### 🔹 Lauffähige Software als Ergebnis
-> Am Ende des MDSD-Prozesses steht ein ausführbares Softwareprodukt
-> Modellierung für manuelle Implementierung entspricht **NICHT** dem Gedanken von MDSD
-> Generatoren generieren aus Modellen Quelltexte anderer Sprachen und sind Bestandteil des Build-Prozesses
-> Interpreter lesen Modelle zur Laufzeit ein und führen korrespondierende Aktionen aus
-> In jedem Fall entsteht aus einem Modell ein Stück ausführbare Software
+> - Am Ende des MDSD-Prozesses steht ein ausführbares Softwareprodukt
+> - Modellierung für manuelle Implementierung entspricht **NICHT** dem Gedanken von MDSD
+> - Generatoren generieren aus Modellen Quelltexte anderer Sprachen und sind Bestandteil des Build-Prozesses
+> - Interpreter lesen Modelle zur Laufzeit ein und führen korrespondierende Aktionen aus
+> - In jedem Fall entsteht aus einem Modell ein Stück ausführbare Software
 
 ### 🔹 Automatisierte Erzeugung
-> Modelle treten an die Stelle des "Quellcodes". die generierten Artefakte bestehen nur temporär
-> Modelle müssen nicht zwingend das komplette System beschreiben, weshalb auch nicht das komplette System auf Basis des Modells generiert werden muss
-> Eine Kombination aus manuellen und generiertem Code ist durchaus üblich
+> - Modelle treten an die Stelle des "Quellcodes". die generierten Artefakte bestehen nur temporär
+> - Modelle müssen nicht zwingend das komplette System beschreiben, weshalb auch nicht das komplette System auf Basis des Modells generiert werden muss
+> - Eine Kombination aus manuellen und generiertem Code ist durchaus üblich
 
 ### 🔹 Motivation für den Einsatz von MDSD
 > - Erhöhung der - Softwarequalität / Wiederverwendbarkeit / Entwicklungseffizienz
-> Arbeit erfolgt auf höherem Abstraktionsniveau
-> Die Komplexität wird in zwei Teile gesplittet
-> Modelle bzw. <modellelemente werden auf gleiche Weise auf eine somit einheitliche Architektur abgebildet
-> Abstrakte Modelle dienen immer auch als Dokumentation
-> Zunehmende Komplexität zu erstellender Softwareartefakte
-> Steigende Durchdringung von Software im Alltag, ständige Weiterentwicklung bestehender Softwareartefakte
-> Knappheit an Entwicklern mit hervorragenden Kenntnissen in den benötigten Technologien.
-> Interaktion mit Peronen, die über wenig/keine Entwicklungserfahrung verfügen (Kunden, Manager), für die ein Modell ein Mediationsrolle für das Systemverständnis einnehmen kann
-> Expertenwissen fließt in die Automation ein
-> Wiederverwendbarkeit: Architekturen, Modellierungssprachen und Generatoren können ggf. für unterschiedliche Systeme verwendet werden
-> Plattformunabhängigkeit: Aus den selben Modellen können Artefakte für unterschiedliche Zielplattformen generiert werden
+> - Arbeit erfolgt auf höherem Abstraktionsniveau
+> - Die Komplexität wird in zwei Teile gesplittet
+> - Modelle bzw. <modellelemente werden auf gleiche Weise auf eine somit einheitliche Architektur abgebildet
+> - Abstrakte Modelle dienen immer auch als Dokumentation
+> - Zunehmende Komplexität zu erstellender Softwareartefakte
+> - Steigende Durchdringung von Software im Alltag, ständige Weiterentwicklung bestehender Softwareartefakte
+> - Knappheit an Entwicklern mit hervorragenden Kenntnissen in den benötigten Technologien.
+> - Interaktion mit Peronen, die über wenig/keine Entwicklungserfahrung verfügen (Kunden, Manager), für die ein Modell ein Mediationsrolle für das Systemverständnis einnehmen kann
+> - Expertenwissen fließt in die Automation ein
+> - Wiederverwendbarkeit: Architekturen, Modellierungssprachen und Generatoren können ggf. für unterschiedliche Systeme verwendet werden
+> - Plattformunabhängigkeit: Aus den selben Modellen können Artefakte für unterschiedliche Zielplattformen generiert werden
 ---
 ## 📷 Bilder / Diagramme
 
