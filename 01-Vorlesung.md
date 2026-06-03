@@ -137,6 +137,32 @@ Modellgetriebene Softwareentwicklung ist ein Oberbegriff für Techniken, die aus
 > klare Regeln, über was ein Modell Aussagen treffen kann und muss
 > klare Regeln, wie die Beschreibung erfolgt
 > formale Modelle müssen nicht zwingend UML-Modelle sein!
+
+### 🔹 Lauffähige Software als Ergebnis
+> Am Ende des MDSD-Prozesses steht ein ausführbares Softwareprodukt
+> Modellierung für manuelle Implementierung entspricht **NICHT** dem Gedanken von MDSD
+> Generatoren generieren aus Modellen Quelltexte anderer Sprachen und sind Bestandteil des Build-Prozesses
+> Interpreter lesen Modelle zur Laufzeit ein und führen korrespondierende Aktionen aus
+> In jedem Fall entsteht aus einem Modell ein Stück ausführbare Software
+
+### 🔹 Automatisierte Erzeugung
+> Modelle treten an die Stelle des "Quellcodes". die generierten Artefakte bestehen nur temporär
+> Modelle müssen nicht zwingend das komplette System beschreiben, weshalb auch nicht das komplette System auf Basis des Modells generiert werden muss
+> Eine Kombination aus manuellen und generiertem Code ist durchaus üblich
+
+### 🔹 Motivation für den Einsatz von MDSD
+> Erhöhung der - Softwarequalität / Wiederverwendbarkeit / Entwicklungseffizienz
+> Arbeit erfolgt auf höherem Abstraktionsniveau
+> Die Komplexität wird in zwei Teile gesplittet
+> Modelle bzw. <modellelemente werden auf gleiche Weise auf eine somit einheitliche Architektur abgebildet
+> Abstrakte Modelle dienen immer auch als Dokumentation
+> Zunehmende Komplexität zu erstellender Softwareartefakte
+> Steigende Durchdringung von Software im Alltag, ständige Weiterentwicklung bestehender Softwareartefakte
+> Knappheit an Entwicklern mit hervorragenden Kenntnissen in den benötigten Technologien.
+> Interaktion mit Peronen, die über wenig/keine Entwicklungserfahrung verfügen (Kunden, Manager), für die ein Modell ein Mediationsrolle für das Systemverständnis einnehmen kann
+> Expertenwissen fließt in die Automation ein
+> Wiederverwendbarkeit: Architekturen, Modellierungssprachen und Generatoren können ggf. für unterschiedliche Systeme verwendet werden
+> Plattformunabhängigkeit: Aus den selben Modellen können Artefakte für unterschiedliche Zielplattformen generiert werden
 ---
 ## 📷 Bilder / Diagramme
 
