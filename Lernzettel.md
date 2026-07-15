@@ -314,3 +314,84 @@ Die LEGO-Bausteine und die Regeln, wie sie zusammengesteckt werden dürfen.
 Das Metamodell beschreibt nicht das Haus, sondern wie Häuser aus Bausteinen aufgebaut werden können.
 ---
 #### Der wichtigste Satz für Ecore
+Ecore ist ein metamodell, weil es nicht die Realität beschreibt, sondern festlegt, aus welchem Elementen Modelle bestehen dürfen (z.B. EClass, EAttribute und EReference)
+---
+### M0 - M3 🚀
+Die 4 Ebenen:
+```
+M3
+Meta-Metamodell
+        │
+        ▼
+M2
+Metamodell
+(Ecore)
+        │
+        ▼
+M1
+Modell
+(Hochschulmodell)
+        │
+        ▼
+M0
+Reale Welt
+(Student Max, Professor Müller ...)
+```
+---
+#### M0
+Die echte Welt.  
+Beispiel:  
+👨 Max Mustermann  
+👩 Professor Müller  
+📖 Software Engineering
+---
+#### M1
+Jetzt modellierst du die Realität
+```
+Student
+
+name
+
+matrikelnummer
+```
+Das ist ein Modell
+---
+#### M2
+Woher kommt eigentlich die Klasse Student? -> aus EClass  
+Woher kommen die Attribute? -> aus EAttribute  
+Das kommt alles aus Ecore.  
+**M2 ist das Metamodell**
+---
+#### M3
+MOF (Meta Object Facility)  
+MOF beschreibt Ecore.  
+Deshalb ist MOF das Meta-Metamodell.
+---
+#### Der wichtigste Merksatz:
+```
+M0 → Realität
+
+M1 → Modell
+
+M2 → Ecore
+
+M3 → MOF
+```
+---
+### Ecore 🚀
+#### Klausurdefinition
+**Ecore ist das Metamodell des Eclipse Modeling Frameworks (EMF). Es beschreibt, aus welchen Elementen Modelle bestehen dürfen und wie diese miteinander in Beziehung stehen.**
+##### Merksatz
+Ecore beschreibt, wie Modelle aufgebaut werden.
+#### Die vier wichtigsten Elemente
+**EClass**  
+Klasse  
+
+**EAttribute**  
+Attribut  
+  
+**EReference**  
+Beziehung zwischen Klassen  
+
+**EDataType**  
+Datentyp
