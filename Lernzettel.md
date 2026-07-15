@@ -157,8 +157,160 @@ Der Code wird ganz oder teilweise automatisch aus dem Modell erzeugt.
 - **Abstraktion** bedeutet: Wichtiges behalten, Unwichtiges weglassen
 - Bei MDSD ist **das Modell wichtiger als der Code**.
 
+---
 
+## 1. Einführung in MDSD
 
+### Das große Ganze
+Die wichtigste Grafik des Kapitels verbindet alle Begriffe.   Wir lernen sie nicht auswendig, sondern verstehen sie logisch.
+Der Ablauf sieht vereinfacht so aus:
+```
+Domäne
+   │
+   ▼
+Metamodell
+   │
+   ▼
+Modellierungssprache
+   │
+   ▼
+Modell
+```
+**Jeder Begriff baut auf dem vorherigen auf.**
+---
+### 1. Begriff - **Domäne**
+#### Definition
+Eine **Domäne** ist ein **klar abgegrenztes Wissens- oder Interessensgebiet**.  Es gibt fachliche und technische Domänen; große Domänen können zudem in Subdomänen aufgeteilt werden.
+#### Beispiele
+**Fachliche Domäne**  
+🏦 Bank  
 
+Begriffe:
+- Konto
+- Kunde
+- Kredit
+- Überweisung
+---
+**Fachliche Domäne**  
+🏥 Krankenhaus  
 
+Begriffe:
+- Arzt
+- Patient
+- Station
+- Diagnose
+---
+**Technische Domäne**  
+💻 Datenbank  
 
+Begriffe:
+- Tabelle
+- Primärschlüssel
+- Fremdschlüssel
+
+---
+#### Klausurfrage - Was ist eine Domäne? 🚀
+
+##### Musterantwort:
+**Eine Domäne ist ein klar abgegrenzter Wissens- oder Interessensgebiet, das durch Modelle beschrieben werden kann.**
+
+### 2. Begriff - **Subdomäne**
+Eine Domäne kann sehr groß sein.  
+Beispiel:
+```
+Krankenhaus
+```
+Unterteilt in:
+```
+Patientenverwaltung
+Abrechnung
+Personal
+Labor
+```
+Diese kleineren Bereiche nennt man **Subdomänen**.  
+Warum macht man das?  
+**Komplexität reduzieren**
+
+### 3. Begriff - **Modellierungssprache**
+Eine Modellierungssprache legt fest,
+- welche Elemente verwendet werden dürfen
+- wie sie geschrieben werden
+- was sie bedeuten
+
+Beispiele:
+- UML
+- XML
+- Ecore
+- BPMN
+
+### 4. Begriff - **Syntax**
+Syntax bedeutet, **wie etwas geschrieben wird.**  
+Es geht nur um die Form, nicht um die Bedeutung.  
+Beispiel:
+```
+int alter = 20;
+```
+Syntax korrekt
+---
+```
+int = alter 20
+```
+Syntax falsch
+
+### Begriff 5 - **Semantik**
+Semantik beantwortet, was etwas bedeutet?  
+Beispiel:
+```
+Auto
+```
+Syntax:   
+Der Text lautet "Auto".  
+  
+Semantik:  
+Der Text beschreibt ein Fahrzeug.
+
+---
+### Begriff 6 - **Metamodell** 🚀
+#### **Definition**
+**Ein Metamodell beschreibt die Struktur, Regeln und zulässigen Elemente  eines Modells.**  
+  
+Einfacher:  
+Ein Metamodell beschreibt, wie Modelle aufgebaut sein dürfen.
+---
+##### Beispiel
+**Modell**
+```
+Person
+
+Name
+Alter
+```
+Das ist ein Modell.
+---
+**Metamodel**
+Das Metamodell sagt:  
+
+Eine Klasse darf
+- Attribute besitzen
+- Referenzen besitzen
+- von anderen Klassen erben
+Es beschreibt also nicht die Person, sondern die Regeln zum Erstellen des Modells.
+
+---
+#### Vergleich
+Stell dir LEGO vor.  
+
+**Realität**  
+Ein echtes Haus.  
+🏠
+---
+**Modell**  
+Ein LEGO-Haus.  
+🧱
+---
+**Metamodell**  
+Die LEGO-Bausteine und die Regeln, wie sie zusammengesteckt werden dürfen.  
+🧩  
+Das Metamodell beschreibt nicht das Haus, sondern wie Häuser aus Bausteinen aufgebaut werden können.
+---
+#### Der wichtigste Satz für Ecore
